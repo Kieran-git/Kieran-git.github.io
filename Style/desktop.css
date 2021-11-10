@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html, body {
+    margin: auto;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+body {
+    background-color: #3E4955;
+}
+
+nav {
+    /* width: 100%; */
+    /* 80px + 20px padding ( 100 height nav ) */
+    height: 80px;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    background-color: #0B1622;
+    font-size: 18px;
+}
+
+.square {
+    display: inline-flex;
+    background-color: #C4C4C4;
+    color: #000000;
+    padding: 30px;
+    margin-right: 10px;
+}
+
+nav ul {
+    display: inline-flex;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+
+/* In order to align everything in nav */
+
+/* Value on last child is the offset of the length of the first two list items */
+
+/* This enables margin auto to work to center the three middle li */
+
+nav li:nth-child(3) {
+    margin-left: auto;
+}
+
+nav li:nth-child(5) {
+    margin-right: auto;
+}
+
+nav li:last-child {
+    width: 191.48px;
+}
+
+nav li {
+    /* Vertically and horizontally align list items */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 110px;
+}
+
+nav li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #C4C4C4;
+}
+
+main {
+    padding: 100px;
+}
+
+.heading {
+    font-size: 48px;
+}
+
+main div {
+    display: flex;
+    justify-content: center;
+}
+
+#about {
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+#about div {
+    padding: 10px;
+}
+
+#about>div:first-child {
+    background-color: #0B1622;
+    margin-right: 1em;
+}
+
+#about>div:last-child {
+    background-color: #C4C4C4;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    border: 1px solid #000000;
+}
+
+.portrait {
+    height: 80px;
+    width: 30px;
+}
+
+.openingWord {
+    font-size: 48px;
+}
+
+.paragraph {
+    font-size: larger;
+    padding: 10px;
+}
+
+.sectionTitle {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: xx-large;
+}
+
+#skills, #contact div {
+    background-color: #0B1622;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    max-width: 128px;
+    max-height: 128px;
+    border: none;
+    padding: 1em;
+}
+
+
+a:link {
+    color: #FFF;
+    height: auto;
+    width: auto;
+}
+
+#emailNow:hover {
+    color: #C4C4C4;
+}
+

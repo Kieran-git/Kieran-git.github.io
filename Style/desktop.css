@@ -116,13 +116,29 @@ img {
     font-size: xx-large;
 }
 
-
 .logo {
-    max-width: 128px;
-    max-height: 128px;
     border: none;
     padding: 1em;
 }
+
+/* Desktop */
+@media only screen and (min-width: 800px) {
+
+    .logo {
+        max-width: 128px;
+        max-height: 128px;
+        
+    }
+}  
+
+/* Tablet */
+@media only screen and (max-width: 768px) {
+
+    .logo {
+        max-width: 64px;
+        max-height: 64px;
+    }
+} 
 
 .square {
     display: inline-flex;

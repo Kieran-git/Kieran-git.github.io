@@ -119,8 +119,7 @@ img {
 .logo {
     border: none;
     padding: 1em;
-    max-width: 128px;
-    max-height: 128px;
+    
 }
 
 .square {
@@ -138,6 +137,11 @@ img {
 /* Desktop */
 @media only screen and (min-width: 800px) {
 
+    .logo {
+        max-width: 128px;
+        max-height: 128px;  
+    }
+
     #lang0 {
         display: flex;
         justify-content: center;
@@ -150,6 +154,11 @@ img {
 
 /* Tablet */
 @media only screen and (max-width: 768px) {
+
+    .logo {
+        max-width: 128px;
+        max-height: 128px;  
+    }
 
     #lang0 {
         display: none;

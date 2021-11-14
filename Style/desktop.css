@@ -21,8 +21,6 @@ main div {
 }
 
 nav {
-    /* width: 100%; */
-    /* 80px + 20px padding ( 100s height nav ) */
     height: 80px;
     padding: 10px;
     position: sticky;

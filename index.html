@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style/desktop.css">
+    <link rel="stylesheet" media="screen and (min-width: 701px) and (max-width: 2650px)" href="Style/desktop.css">
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="Style/mobile.css">
     <link rel="icon" href="Media/PortfolioSiteLogo.png" type="image/x-icon">
     <title>KieranFoy Portfolio</title>
 </head>
@@ -31,7 +32,7 @@
         <div id="sectionAbout"></div>
         <p class="sectionTitle">ABOUT</p>
         <div id="about">
-            <div>
+            <div id="container">
                 <div class="openingWord">Hi,</div>
                 <div class="paragraph">
                     <br></br>
@@ -58,11 +59,12 @@
                     course in
                     order to gather as much information as possible and decide if I want to specialise in this for my
                     dissertation.
+                    <div class="portrait">
+                        <img id="myPicture" src="Media/Kieran.jpeg">
+                    </div>
                 </div>
             </div>
-            <div class="portrait">
-                <img id="myPicture" src="Media/Kieran.jpeg">
-            </div>
+            
         </div>
 
         <div id="sectionSkills"></div>
